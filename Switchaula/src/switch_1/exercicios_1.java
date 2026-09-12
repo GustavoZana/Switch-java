@@ -23,9 +23,47 @@ public class exercicios_1 {
 		 
 		switch (operador) {
 		
-		
+		case '+':
+			
+			System.out.println("resultado: "+ (num1 + num2));
+			
+			break;
+			
+
+	    case '-':
+			
+			System.out.println("resultado: "+ (num1 - num2));
+			
+			break;
+			
+
+	    case '*':
+	
+	System.out.println("resultado: "+ (num1 * num2));
+	
+	break;
+	
+
+	    case '/':
+	    	
+	    	if (num2 != 0)
+	
+	System.out.println("resultado: "+ (num1 / num2));
+	
+	    	else
+	    		
+	    		System.out.println("Erro:Divisao por zero");
+	    	
+	    	break;
+	    	
+	    	default:
+	    		
+	    		System.out.println("operador invalido");
+	    		
+		}
+		entrada.close();
 		}
 		
 	}
 
-}
+
